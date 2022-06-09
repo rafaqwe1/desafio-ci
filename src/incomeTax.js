@@ -1,5 +1,6 @@
 
 const calculate = function (income) {
+  
   if(income <= 1903.98){
     return 0
   }
