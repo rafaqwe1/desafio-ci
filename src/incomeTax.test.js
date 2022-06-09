@@ -1,4 +1,4 @@
-const calculate = require('./incomeTax')
+const calculate = require('../src/incomeTax')
 
 test("should return the correct income tax value", () => {
   expect(calculate(1900)).toEqual(0)
